@@ -1,0 +1,15 @@
+shape=input("Enter the shape:")
+if shape=="rectangle":
+    width=float(input("Enter the width:"))
+    length=float(input("Enter the length:"))
+    area=width*length
+    print(f"Area:{area:.2f}")
+elif shape=="triangle":
+    base=float(input("Enter the base:"))
+    height=float(input("Enter the height:"))
+    area=1/2*base*height
+    print(f"Area:{area:.2f}")
+elif shape=="circle":
+    radius=float(input("Enter the radius:"))
+    area=3.1416*radius**2
+    print(f"Area:{area:.2f}")
